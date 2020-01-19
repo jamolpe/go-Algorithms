@@ -25,5 +25,5 @@ jobs:
         working-directory: ./
 
       - name: test-user-service
-        run: go test ./test/...
+        run: go test ./...
         working-directory: ./
